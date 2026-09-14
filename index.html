@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============ SEO ============ -->
+<title>Polaroid4yo — Transformez vos souvenirs en Polaroids</title>
+<meta name="description" content="Découvrez Polaroid4yo : des Polaroids personnalisés à partir de 3 DH, avec un minimum de 12 Polaroids. Découvrez nos formats et templates et commandez directement sur Instagram.">
+<meta name="keywords" content="polaroid, polaroid maroc, tirage photo polaroid, polaroid personnalisé, photo souvenir, polaroid instagram, polaroid4yo">
+<meta name="author" content="Polaroid4yo">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Polaroid4yo — Transformez vos souvenirs en Polaroids">
+<meta property="og:description" content="Des Polaroids personnalisés à partir de 3 DH. Minimum 12 Polaroids. Commandez directement sur Instagram.">
+<meta property="og:url" content="https://www.instagram.com/polaroid4yo">
+<meta property="og:site_name" content="Polaroid4yo">
+<meta property="og:image" content="assets/logo/icon-512.png">
+
+<!-- Favicons -->
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="assets/logo/icon.svg">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+<meta name="theme-color" content="#FBF7F0">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======================================================
+     SKIP LINK (accessibility)
+====================================================== -->
+<a class="skip-link" href="#main-content" data-i18n="a11y.skip">Aller au contenu principal</a>
+
+<!-- ======================================================
+     NAVIGATION
+====================================================== -->
+<header class="site-header" id="siteHeader">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a href="#top" class="logo" aria-label="Polaroid4yo — accueil">
+      <!-- Inline SVG logo: a tiny polaroid card with a sun/flash and the wordmark -->
+      <svg class="logo-mark" width="36" height="36" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="3" y="3" width="38" height="38" rx="7" fill="var(--color-cream-deep)" stroke="var(--color-charcoal)" stroke-width="2"/>
+        <rect x="8" y="8" width="28" height="20" rx="2.5" fill="url(#logoGradient)"/>
+        <circle cx="22" cy="18" r="5.5" fill="var(--color-cream)" opacity="0.9"/>
+        <path d="M15 33.5H29" stroke="var(--color-charcoal)" stroke-width="2.4" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="logoGradient" x1="8" y1="8" x2="36" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="var(--color-pink)"/>
+            <stop offset="0.5" stop-color="var(--color-lavender)"/>
+            <stop offset="1" stop-color="var(--color-sky)"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="logo-word">Polaroid<span class="logo-word-accent">4yo</span></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#top" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="#product" data-i18n="nav.product">Nos Polaroids</a></li>
+        <li><a href="#templates" data-i18n="nav.templates">Templates</a></li>
+        <li><a href="#how" data-i18n="nav.how">Comment ça marche</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#order" class="nav-cta" data-i18n="nav.order">Commander</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Choix de la langue">
+        <button type="button" class="lang-btn is-active" data-lang="fr">FR</button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <!-- ======================================================
+       HERO
+  ====================================================== -->
+  <section class="hero" id="top">
+    <div class="hero-floaters" aria-hidden="true">
+      <div class="floater floater-1 polaroid-card polaroid-pink"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+      <div class="floater floater-2 polaroid-card polaroid-sky"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+      <div class="floater floater-3 polaroid-card polaroid-yellow"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+      <div class="floater floater-4 polaroid-card polaroid-lavender"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+    </div>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow" data-i18n="hero.eyebrow">📸 Édition Polaroid faite avec soin</p>
+      <h1 data-i18n="hero.title">Transformez vos souvenirs en Polaroids.</h1>
+      <p class="hero-sub" data-i18n="hero.subtitle">Des souvenirs à garder, à offrir et à revivre. Créez votre pack de Polaroids avec vos photos préférées.</p>
+      <div class="hero-actions">
+        <a href="#product" class="btn btn-primary" data-i18n="hero.ctaPrimary">Découvrir nos Polaroids →</a>
+        <a href="https://www.instagram.com/polaroid4yo" target="_blank" rel="noopener" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Commander sur Instagram ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       PRODUCT PRESENTATION
+  ====================================================== -->
+  <section class="section product" id="product">
+    <div class="section-inner">
+      <div class="reveal">
+        <h2 data-i18n="product.title">Nos Polaroids</h2>
+        <p class="section-lead" data-i18n="product.lead">Imprimez vos moments préférés dans un format Polaroid élégant et intemporel.</p>
+      </div>
+
+      <div class="product-showcase">
+        <div class="product-visual reveal" aria-hidden="true">
+          <div class="stack-card polaroid-card polaroid-sky stack-back"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+          <div class="stack-card polaroid-card polaroid-yellow stack-mid"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+          <div class="stack-card polaroid-card polaroid-pink stack-front"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+        </div>
+
+        <div class="product-text reveal">
+          <ul class="feature-list">
+            <li><span class="feature-dot"></span><span data-i18n="product.point1">Impression de qualité, couleurs fidèles et rendu doux.</span></li>
+            <li><span class="feature-dot"></span><span data-i18n="product.point2">Format Polaroid iconique, parfait à offrir ou à coller sur un mur.</span></li>
+            <li><span class="feature-dot"></span><span data-i18n="product.point3">Vos photos, vos souvenirs — préparés à la main, pack par pack.</span></li>
+          </ul>
+          <a href="https://www.instagram.com/polaroid4yo" target="_blank" rel="noopener" class="btn btn-outline" data-i18n="product.cta">Commander sur Instagram ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       PRICE SECTION
+  ====================================================== -->
+  <section class="section pricing" id="pricing">
+    <div class="section-inner">
+      <div class="pricing-card reveal">
+        <div class="pricing-visual" aria-hidden="true">
+          <div class="mini-card mini-1"></div>
+          <div class="mini-card mini-2"></div>
+          <div class="mini-card mini-3"></div>
+        </div>
+
+        <div class="pricing-text">
+          <p class="eyebrow" data-i18n="pricing.eyebrow">Le prix, simplement</p>
+          <p class="price-line"><span class="price-big">3 DH</span><span class="price-unit" data-i18n="pricing.unit">/ Polaroid</span></p>
+          <p class="price-min" data-i18n="pricing.min">Minimum 12 Polaroids</p>
+          <p class="price-total"><span data-i18n="pricing.packLabel">Pack minimum :</span> <strong>36 DH</strong></p>
+          <p class="price-explain" data-i18n="pricing.explain">Chaque Polaroid coûte 3 DH. Le minimum de commande est de 12 Polaroids, soit 36 DH.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       AVAILABLE FORMATS
+  ====================================================== -->
+  <section class="section formats" id="formats">
+    <div class="section-inner">
+      <div class="reveal">
+        <h2 data-i18n="formats.title">Formats disponibles</h2>
+        <p class="section-lead" data-i18n="formats.lead">Un aperçu de ce qui est possible — parlez-nous de votre préférence sur Instagram.</p>
+      </div>
+      <div class="formats-grid" id="formatsGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       TEMPLATES GALLERY
+  ====================================================== -->
+  <section class="section templates" id="templates">
+    <div class="section-inner">
+      <div class="reveal">
+        <h2 data-i18n="templates.title">Nos Templates</h2>
+        <p class="section-lead" data-i18n="templates.lead">Cliquez sur un template pour l'admirer en grand.</p>
+      </div>
+      <div class="templates-grid" id="templatesGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       HOW IT WORKS
+  ====================================================== -->
+  <section class="section how" id="how">
+    <div class="section-inner">
+      <div class="reveal">
+        <h2 data-i18n="how.title">Comment ça marche ?</h2>
+      </div>
+      <div class="steps-grid" id="stepsGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       INSTAGRAM CTA
+  ====================================================== -->
+  <section class="section instagram-cta" id="order">
+    <div class="instagram-floaters" aria-hidden="true">
+      <div class="floater floater-5 polaroid-card polaroid-pink small"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+      <div class="floater floater-6 polaroid-card polaroid-lavender small"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+      <div class="floater floater-7 polaroid-card polaroid-sky small"><div class="polaroid-photo"></div><div class="polaroid-caption"></div></div>
+    </div>
+    <div class="section-inner cta-inner reveal">
+      <h2 data-i18n="cta.title">Prêt à transformer vos souvenirs ?</h2>
+      <p data-i18n="cta.subtitle">Commandez vos Polaroids directement sur Instagram.</p>
+      <a href="https://www.instagram.com/polaroid4yo" target="_blank" rel="noopener" class="btn btn-primary btn-large" data-i18n="cta.button">Commander sur Instagram ↗</a>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       FAQ
+  ====================================================== -->
+  <section class="section faq" id="faq">
+    <div class="section-inner">
+      <div class="reveal">
+        <h2 data-i18n="faq.title">Questions fréquentes</h2>
+      </div>
+      <div class="faq-list" id="faqList"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo" aria-label="Polaroid4yo — accueil">
+        <svg class="logo-mark" width="30" height="30" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="3" y="3" width="38" height="38" rx="7" fill="var(--color-charcoal)" />
+          <rect x="8" y="8" width="28" height="20" rx="2.5" fill="url(#logoGradientFooter)"/>
+          <circle cx="22" cy="18" r="5.5" fill="var(--color-cream)" opacity="0.9"/>
+          <path d="M15 33.5H29" stroke="var(--color-cream)" stroke-width="2.4" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="logoGradientFooter" x1="8" y1="8" x2="36" y2="28" gradientUnits="userSpaceOnUse">
+              <stop stop-color="var(--color-pink)"/>
+              <stop offset="0.5" stop-color="var(--color-lavender)"/>
+              <stop offset="1" stop-color="var(--color-sky)"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-word footer-word">Polaroid<span class="logo-word-accent">4yo</span></span>
+      </a>
+      <p class="footer-desc" data-i18n="footer.desc">Des Polaroids personnalisés, préparés avec soin, à commander sur Instagram.</p>
+      <a class="footer-insta" href="https://www.instagram.com/polaroid4yo" target="_blank" rel="noopener">@polaroid4yo</a>
+    </div>
+
+    <div class="footer-links">
+      <p class="footer-heading" data-i18n="footer.navHeading">Navigation</p>
+      <ul>
+        <li><a href="#top" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="#product" data-i18n="nav.product">Nos Polaroids</a></li>
+        <li><a href="#templates" data-i18n="nav.templates">Templates</a></li>
+        <li><a href="#how" data-i18n="nav.how">Comment ça marche</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-lang">
+      <p class="footer-heading" data-i18n="footer.langHeading">Langue</p>
+      <div class="lang-switch" role="group" aria-label="Choix de la langue">
+        <button type="button" class="lang-btn is-active" data-lang="fr">FR</button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Polaroid4yo. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+</footer>
+
+<!-- ======================================================
+     TEMPLATE PREVIEW MODAL
+====================================================== -->
+<div class="modal-overlay" id="templateModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Fermer">&times;</button>
+    <div class="modal-image" id="modalImage"></div>
+    <p class="modal-title" id="modalTitle"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
